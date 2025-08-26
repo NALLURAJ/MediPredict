@@ -1,0 +1,41 @@
+/* ----- Layout ----- */
+.main { padding-top: 10px; }
+.block-container { padding-top: 2rem; }
+
+/* ----- Headings ----- */
+h1, h2, h3, h4 { font-weight: 700; letter-spacing: .2px; }
+
+/* ----- Buttons ----- */
+.stButton > button {
+  background: #0066CC;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-weight: 600;
+  border: 0;
+}
+.stButton > button:hover { filter: brightness(0.95); }
+
+/* ----- Inputs ----- */
+.stTextInput > div > div > input,
+.stNumberInput input {
+  border: 1px solid #B9D6FF;
+  border-radius: 10px;
+}
+
+/* ----- Sidebar ----- */
+section[data-testid="stSidebar"] {
+  background: #0F172A;        /* deep navy */
+  color: #fff;
+}
+section[data-testid="stSidebar"] a { color: #E2E8F0; }
+
+/* ----- Success/Alert boxes ----- */
+.stAlert { border-radius: 12px; }
+
+/* ----- Option menu tweak (selected item) ----- */
+a.nav-link.active {
+  background: #0066CC !important;
+  color: #fff !important;
+  border-radius: 12px;
+}
